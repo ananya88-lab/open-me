@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(135deg, #ffd6e0, #fff1f5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  padding: 35px;
+  width: 340px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+h1 {
+  color: #ff4d6d;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+  position: relative;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:first-child {
+  background: #ff4d6d;
+  color: white;
+}
+
+#noBtn {
+  background: #f1f1f1;
+  position: absolute;
+}
+
+#reply {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff4d6d;
+}
+
+.from {
+  margin-top: 25px;
+  font-style: italic;
+  color: #777;
+}
